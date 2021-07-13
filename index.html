@@ -1,13 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Donut Clicker</title>
-  </head>
-  <body>
-    <div class="container"></div>
-    <script src="./index.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Fred the Bakers's Donut Clicker</title>
+</head>
+
+<nav class="menu-container">
+  <input type="checkbox" aria-label="Toggle menu" />
+  <span></span>
+  <span></span>
+  <span></span>
+
+  <div class="menu">
+    <ul>
+      <li>
+        <a href="http://localhost:1234">
+          Home
+        </a>
+      </li>
+      <li>
+        <a href="fred.html">
+          About Fred
+        </a>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <a href="https://tjackson90.github.io./">
+          About Us
+        </a>
+      </li>
+      <li>
+        <a href="https://orteil.dashnet.org/cookieclicker/">
+          Our Inspiration
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<h2>Fred the Baker's <br> Donut Clicker</h2>
+
+<body>
+  <p>Donuts</p>
+  
+  <div id="display"></div>
+
+  <div id = "click" onclick="click">
+    <img src="images/GlaringAngryBorzoi.webp" />
+  </div>
+  
+  <input id="multiply" type="button" value="">
+  <input id="autoclick" type="button" value="">
+   
+</body>
+
+<footer>
+  <input type="button" value="Kill it!" onClick="refresh(this)"> 
+</footer> 
+<script src="./DonutMaker.js"></script>
 </html>
